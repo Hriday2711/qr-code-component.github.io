@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit";
+}
+
+.qr-code-container {
+    background-color: hsl(0,0%,100%);
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+}
+
+.qr-code-image-section {
+    width: 288px;
+    height:  288px;
+    margin-bottom: 40px;
+}
+
+.qr-code-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+
+.info-section {
+    width: 288px;
+    height: 129px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 40px;
+}
+
+.info-text-1 {
+    width: 100%;
+    height: 56px;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    font-weight:700;
+
+}
+
+.info-text-2 {
+    width: 100%;
+    height: 57px;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+}
+
+@media screen and (min-width: 375px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .qr-code-container {
+        background-color: hsl(0,0%,100%);
+        width: 320px;
+        height: 497px;
+        border-radius: 20px;
+    }
+
+    .qr-code-image-section {
+        width: 288px;
+        height:  288px;
+        margin-bottom: 40px;
+    }
+    
+    .qr-code-image {
+        width: 100%;
+        height: 100%;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-top: 16px;
+        border-radius: 10px;
+    }
+    
+    .info-section {
+        width: 288px;
+        height: 129px;
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 40px;
+    }
+    
+    .info-text-1 {
+        width: 100%;
+        height: 56px;
+        text-align: center;
+        color: hsl(218, 44%, 22%);
+        font-weight:700;
+    }
+    
+    .info-text-2 {
+        width: 100%;
+        height: 57px;
+        text-align: center;
+        color: hsl(220, 15%, 55%);
+        font-weight: 400;
+    }
+}
